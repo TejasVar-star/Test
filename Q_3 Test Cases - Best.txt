@@ -1,0 +1,18 @@
+UI Improvements -
+
+1. Login functionality can be made more visible so that it will easier to access.
+2. Logo and title can be aligned centrally.
+3. Cursor type can be changed when hovered on link.
+4. Having some margins on both the sides will enhance the look and feel of the page.
+5. All the text-boxes can be of same size and can be centrally aligned.
+6. Photo/Signature field can have some attractive look.
+7. Tooltip can have smaller font size so that it looks good.
+8. Login window is not so cool.
+9. Text boxes on login page can have similar length.
+10.Proper use of font size for headers and sub-sections will make application more readable.
+11.Too much space between field name and textbox.
+
+
+Functinal Issue:
+Home button is not working as expected. 
+Unable to return to home page from login page.

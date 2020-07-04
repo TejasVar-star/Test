@@ -1,0 +1,31 @@
+Frontned test cases -
+
+Positive cases:
+1. Verify that title/header of the page is "Sadguru's Amrit-Tulya - Tea Shop" with the exact font size and font style.
+2. Verify that item has name, description and price.
+3. Verify that functionality of adding picture to the component is working as expected.
+4. Verify that list contains all the components present.
+5. Verify that list has name and price for all components.
+6. Verify that item is removed from the list when clicked on Remove button.
+7. Verify that when clicked on any item, user nevigates to new page which displays all information like name, description, price and photo(optional) of that item.
+8. Verify that name and price of the item in the list is same as user gets on the new page when clicked on that item.
+9. Verify that maximum limit for characters that can entered in name, price and description.
+10.Verify that user can select only defined format of picture like only .jpg or .png.
+11.Verify that content on both pages is properly aligned. 
+12.Verify that API calls do not lead to full page reload i.e. new item should be added in the list without full page reload.
+13.Verify that when new item is added, number of items in the list increases by one.
+14.Verify that when item is removed, number of items in the list decreases by one.
+15.Verify that user can modify price or description of the existing item.
+
+Negative cases -
+1. Verify that negative value is not allowed in price column.
+2. Verify that application does not allow duplicate item name.
+3. Verify that no two items have similar description (if duplicate items are not allowed).
+4. Verify that application does not accept pdf files in picture section. 
+5. Try adding item without providing name, price.
+
+Backend test cases -
+
+1. Verify that when new item is added, it gets stored in database.
+2. Verify that when item is removed, it gets removed from database also.
+3. Verify that when update is made on price, description, it reflects on database too.
